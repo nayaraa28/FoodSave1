@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+    height: 100%;
+    background-size: cover;
+    background-color: #D2DAAB;
+}
+
+/*-------NAVEGACION---------------*/
+.navegacion{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 120px;
+    background-color: #FFF0D4;
+}
+
+.logos-navegacion{
+    display: flex;
+}
+
+.logos-navegacion .logo-logo-navegacion{
+    padding: 20px;
+    padding-right: 0px;
+}
+
+
+.logos-navegacion .logo-nombre-navegacion{
+    color: black;
+    font-weight: 100;
+    font-family: 'Abril Fatface';
+    margin:0px;
+    padding-left:15px;
+    padding-top: 25px;
+}
+
+.listas-navegacion{
+    display: inline-block;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.08s ease;
+}
+.listas-navegacion a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+    transition: 0.08s ease;
+    font-family: 'Montserrat';
+    font-size: 20px;
+
+}
+.listas-navegacion:hover{
+    color: black;
+    font-weight: bold;
+}
+.listas-navegacion a:hover{
+    color: black;
+    font-weight: bold;
+}
+/*-------NAVEGACION---------------*/
+
+#Inicio{
+    margin-top: 120px;
+}
+
+#Inicio texto-inicio{
+   float:left; 
+}
+
+
+#Inicio .texto-inicio h1{
+   font-size: 70px;
+    font-family: "Abril Fatface";
+    font-weight: 100;
+    display: inline-block;
+    margin: 0;
+    margin:10px;
+    margin-left: 150px;
+    margin-top:150px;
+
+}
+
+#Inicio .texto-inicio p{
+   font-size: 50px;
+    font-family: "Montserrat";
+    margin:0;
+    margin:10px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+#Inicio button{
+    background-color: white;
+    font-size: 30px;
+    color:#9D9D9D;
+    font-family: 'Montserrat';
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 60px;
+    padding-right: 0px;
+    margin-top:20px;
+    margin-left: 150px;
+
+}
+
+#Inicio button span{
+    background-color: #B6C471;
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+
+#Inicio .imagen-inicio{
+    position:absolute;
+    top: 0;
+    right: 0;
+    max-width: 50%;
+    margin: 150px;
+    margin-right: 0px;
+}
