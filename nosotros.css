@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Montserrat;
+    height: 100%;
+    background-size: cover;
+    background-color: #D2DAAB;
+}
+
+/*-------NAVEGACION---------------*/
+.navegacion{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    height: 120px;
+    background-color: #FFF0D4;
+}
+
+.logos-navegacion{
+    display: flex;
+}
+
+.logos-navegacion .logo-logo-navegacion{
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.logos-navegacion .logo-nombre-navegacion{
+    color: black;
+    font-weight: 100;
+    font-family: 'Abril Fatface';
+    margin:0px;
+    padding-left:15px;
+    padding-top: 25px;
+}
+
+.listas-navegacion{
+    display: inline-block;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.08s ease;
+}
+.listas-navegacion a{
+    float: right;
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+    transition: 0.08s ease;
+    font-family: 'Montserrat';
+    font-size: 20px;
+
+}
+.listas-navegacion:hover{
+    color: black;
+    font-weight: bold;
+}
+.listas-navegacion a:hover{
+    color: black;
+    font-weight: bold;
+}
+/*-------NAVEGACION---------------*/
+
+#Nosotros{
+    margin: 150px auto;
+    width: 80%;
+}
+
+#Nosotros img{
+    max-width: 380px;
+    float: right;
+    border: 3px;
+    margin: 50px;
+    padding:40px 0px;
+    margin-right: 0;
+
+}
+
+#Nosotros h1{
+    color: black;
+    font-size: 45px;
+    font-family: "Abril Fatface";
+    font-weight: 100;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#Nosotros p{
+    color: black;
+    font-size: 25px;
+    font-family: "Montserrat";
+    text-align: center;
+}
