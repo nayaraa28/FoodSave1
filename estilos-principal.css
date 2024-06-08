@@ -9,7 +9,7 @@ body {
     background-color: #D2DAAB;
 }
 
-/*-------NAVEGACION---------------*/
+/*------------NAVEGACION---------------*/
 .navegacion{
     height: auto;
     width: 100%;
@@ -24,6 +24,8 @@ body {
     height: 120px;
     background-color: #FFF0D4;
 }
+
+/* Parte logos */
 
 .logos-navegacion{
     display: flex;
@@ -43,6 +45,8 @@ body {
     padding-left:15px;
     padding-top: 25px;
 }
+
+/* Parte de lista, actualizar navegacion a */
 
 .listas-navegacion{
     display: inline-block;
