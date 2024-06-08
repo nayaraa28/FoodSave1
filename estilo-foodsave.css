@@ -77,7 +77,7 @@ body {
     margin: 150px auto;
     width: 70%;
 }
-
+/*Para la imagen*/
 #FoodSave img{
     max-width: 380px;
     float: left;
@@ -86,7 +86,7 @@ body {
     margin-right: 50px;
     padding:40px 0px;
 }
-
+/*Para el titulo*/
 #FoodSave h1{
     color: black;
     font-size: 45px;
@@ -95,7 +95,7 @@ body {
     margin-top: 200px;
     text-align: center;
 }
-
+/*Para el texto*/
 #FoodSave p{
     color: black;
     font-size: 30px;
