@@ -83,7 +83,7 @@ body {
    float:left; 
 }
 
-
+/*Para el titulo*/
 #Inicio .texto-inicio h1{
    font-size: 70px;
     font-family: "Abril Fatface";
@@ -95,7 +95,7 @@ body {
     margin-top:150px;
 
 }
-
+/*Para el párrafo*/
 #Inicio .texto-inicio p{
    font-size: 50px;
     font-family: "Montserrat";
@@ -104,7 +104,7 @@ body {
     margin-left: 150px;
     display: inline-block;
 }
-
+/*Para el boton scan*/
 #Inicio button{
     background-color: white;
     font-size: 30px;
@@ -130,7 +130,7 @@ body {
     margin-top: 20px;
     cursor:pointer;
 }
-
+/*Para el boton scan*/
 
 #Inicio .imagen-inicio{
     position:absolute;
