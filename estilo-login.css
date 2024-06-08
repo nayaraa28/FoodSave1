@@ -1,4 +1,4 @@
-/* Cambio 2 */
+/*--------Cambio 2--------*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -43,7 +43,7 @@ body {
     padding-top:10px;
 }
 
-/*Actualización de valores*/
+/*--------Actualización de valores--------*/
 
 .listas-navegacion{
     display: inline-block;
@@ -74,7 +74,7 @@ body {
 }
 /*----------------NAVEGACION----------------*/
 
-/*-------LOGIN---------------*/
+/*-------LOGIN--------*/
 #Login{
   margin: 200px auto;
   width: 70%;
