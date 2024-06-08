@@ -9,7 +9,7 @@ body {
     background-color: #D2DAAB;
 }
 
-/*-------NAVEGACION---------------*/
+/*----------------NAVEGACION----------------*/
 .navegacion{
     height: auto;
     width: 100%;
@@ -42,6 +42,8 @@ body {
     padding-left:15px;
     padding-top:10px;
 }
+
+/*Actualización de valores*/
 
 .listas-navegacion{
     display: inline-block;
