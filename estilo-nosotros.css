@@ -79,14 +79,13 @@ body {
     width: 80%;
 }
 
-#Nosotros img{
+#Nosotros img {
     max-width: 380px;
     float: right;
     border: 3px;
     margin: 50px;
     padding:40px 0px;
     margin-right: 0;
-
 }
 
 /*--------Para el titulo--------*/
@@ -105,6 +104,48 @@ body {
     font-size: 25px;
     font-family: "Montserrat";
     text-align: center;
+}
+
+.container-desarrolladores{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    column-gap:7%;
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+.container-desarrolladores h1{
+    text-align: center;
+}
+
+.desarrollador{
+    padding: 20px;
+}
+
+.container-desarrolladores .desarrollador{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+}
+
+#Nosotros .desarrollador img{
+    width: 100px;
+    height: 100px;
+    padding:0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right:30px;
+    margin-left:20px
+  
+}
+
+.desarrollador p{
+    color: black;
+    font-size: 25px;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 10px;
 }
 
 #Footer{
