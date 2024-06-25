@@ -106,3 +106,101 @@ body {
     font-family: "Montserrat";
     text-align: center;
 }
+
+#Footer{
+    background-color: #FFF0D4;
+    color: black;
+    padding:10px 0px;
+    margin-top: 200px;
+}
+
+#Footer ul{
+    padding:0;
+    list-style:none;
+    text-decoration: none;
+}
+
+#Footer li{
+    list-style:none;
+    text-decoration: none;
+    color: black;
+}
+
+.container-footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    column-gap:5%;
+    padding: 1rem;
+    margin:2rem auto;
+    max-width: 1200px;
+}
+
+.container-footer h1{
+    font-family: Abril Fatface;
+}
+
+.container-footer .logos-footer{
+    display: flex;
+    text-align: center;
+}
+
+.container-footer .logo-logo-navegacion{
+    padding: 65px;
+    padding-right: 0px;
+    padding-left: 10px;
+}
+
+.container-footer .logo-nombre-navegacion{
+    color: black;
+    font-weight: 100;
+    font-family: 'Abril Fatface';
+    margin:0px;
+    padding-left:15px;
+    padding-top:70px;
+    padding-bottom: 0px;
+}
+.container-footer h4{
+    margin:1rem 0;
+    font-family: Abril Fatface;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.container-footer li a{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.redes-sociales a{
+    font-size: 15px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 8px;
+    transition: 0.08s ease;
+}
+
+.creditos-footer{
+    display:flex;
+    justify-content: space-between;
+    padding:0 1rem;
+    color: black;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.politicas-footer ul{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.politicas-footer ul li{
+    padding-right:1rem;
+}
+
+.politicas-footer ul li a{
+    color:black;
+    font-size: 1rem;
+    text-decoration: none;
+}
